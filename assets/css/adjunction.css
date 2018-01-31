@@ -1,1 +1,30 @@
 /* Custom Adjusting For Developer */
+.card--tips p {
+	font-size: 100%;
+}
+.video__img {
+	width:65%;
+	margin-top:50px;
+}
+.perfume__img > img,
+.experience__img > img {
+	top: 25%;
+}
+.map__img > img {
+	top:30%;
+}
+.company__img {
+	top:10%;
+}
+.productDetail--spec .spec__sale label {
+	font-size: 100%;
+}
+.sovya__caption h1,
+.centdegres__caption h1,
+.company__caption h1,
+.hondo__caption h1 {
+	font-weight: 200;
+}
+.company__caption p {
+	margin-bottom:50px;
+}
