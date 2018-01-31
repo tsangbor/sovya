@@ -7046,6 +7046,7 @@ footer .nav-footer .nav-link:hover {
     display: block; } }
 
 body {
+  -webkit-text-size-adjust: none !important;
   font-family: 'Noto Sans SC', 'PingFang TC', 'Heiti TC', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
   color: #000000;
   font-size: 16px;
@@ -7318,21 +7319,20 @@ article p {
   -ms-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
   font-size: 187.5%;
-  font-weight: 200;
-  content: 'viewport-units-buggyfill; font-size: 1.5vw'; }
+  font-weight: 200; }
 
 .entrance__caption p {
   font-size: 87.5%;
+  letter-spacing: 1px;
   font-weight: 300;
-  color: #484848;
-  content: 'viewport-units-buggyfill; font-size: 0.73vw'; }
+  color: #484848; }
 
 @media (max-width: 767.9px) {
   .entrance__caption h3 {
     font-size: 75%; }
   .entrance__caption p {
-    font-size: 25%;
-    white-space: nowrap; } }
+    font-size: 37.5%;
+    line-height: 1; } }
 
 .professional__caption h1 {
   font-size: 250%;
@@ -8008,6 +8008,7 @@ article p {
   .section__title.with-line {
     margin-bottom: 1rem; }
   .section__title.with-line h1 {
+    font-size: 170%;
     font-weight: 300; }
   .section__title.with-line h1:before, .section__title.with-line h1:after {
     width: 35px;
@@ -8939,12 +8940,10 @@ button {
   padding-bottom: .5rem;
   padding-left: 0;
   padding-right: 0;
-  font-size: 120%;
   font-weight: 200;
   line-height: 1;
   color: #666666;
-  text-align: left;
-  width: 100px; }
+  text-align: center; }
 
 .button--more:before {
   content: '';
@@ -8964,7 +8963,7 @@ button {
   display: block;
   bottom: 0;
   left: 0;
-  width: 100px;
+  width: 90px;
   height: 1px;
   background-color: #666666;
   opacity: 0.75; }
@@ -8974,9 +8973,9 @@ button {
     font-size: 75%;
     width: 90px; }
   .button--more:before {
-    left: 79px; }
+    left: 100%; }
   .button--more:after {
-    width: 90px; } }
+    width: 110%; } }
 
 .button--share {
   font-size: 125%; }
@@ -10822,6 +10821,7 @@ input.checkbox:checked + label.checkbox span {
 
 .card--catalogMobile {
   position: relative;
+  max-width: 100%;
   height: 40px;
   white-space: nowrap;
   margin: 0 10px; }
@@ -10850,7 +10850,7 @@ input.checkbox:checked + label.checkbox span {
   display: inline-block;
   padding-top: 8px;
   padding-left: 5px;
-  max-width: 170px; }
+  max-width: 50%; }
 
 .card--slide {
   position: relative;
@@ -12837,16 +12837,16 @@ img {
   text-align: center;
   margin-bottom: 3rem; }
 
-.row--product.is-reverse > .col--img {
-  width: 65%;
-  left: 35%; }
-
-.row--product.is-reverse > .col--caption {
-  width: 35%;
-  right: 55%; }
-
 .row--product + .row--product {
   margin-top: -9rem; }
+
+@media (min-width: 768px) {
+  .row--product.is-reverse > .col--img {
+    width: 65%;
+    left: 35%; }
+  .row--product.is-reverse > .col--caption {
+    width: 35%;
+    right: 55%; } }
 
 @media (max-width: 991.9px) {
   .row--product.is-reverse > .col--img {
