@@ -1,0 +1,1 @@
+(function(){var n;n=function(){var n,r;return r=window.location.search,n={},r.replace(new RegExp("([^?=&]+)(=([^&]*))?","g"),function(r,c,e,t){return n[c]=t}),n}}).call(this);
