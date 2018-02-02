@@ -1,9 +1,14 @@
 .card--tips p {
 	font-size: 100%;
 }
-.video__img {
-	width:65%;
-	margin-top:50px;
+.section__title {
+	z-index:9;
+}
+.section section--perfume__video .section__title {
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	margin-left: -35%;
 }
 .perfume__img > img,
 .experience__img > img {
@@ -26,4 +31,33 @@
 }
 .company__caption p {
 	margin-bottom:50px;
+}
+
+
+@media (max-width: 767.9px) {
+	article img {
+		margin-bottom:0px;
+	}
+	.productDetail--spec .spec__sale label {
+		font-size:75%;
+	}
+	.productDetail--spec .spec__sale {
+		margin-bottom:20px;
+	}
+	.section--about--company {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top right;		
+	}
+	.company__img {
+		margin-top:-20%;
+	}
+	.section--about--company,
+	.section--about--hondo {
+		padding:1rem 0;
+	}
+	.section--knowledge--tips,
+	.section--knowledge--cycle {
+		padding: 1rem 0;
+	}
 }
