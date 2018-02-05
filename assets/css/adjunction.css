@@ -1,3 +1,14 @@
+header {
+	z-index:999;
+}
+.button--cover {
+	width:initial;
+	padding:0 30px;
+	border-radius: 0;
+}
+.button--cover:hover {
+	background-color: transparent;
+}
 .card--tips p {
 	font-size: 100%;
 }
@@ -55,6 +66,9 @@
 	.company__img:after {
 		padding-bottom: 80%;
 	}
+	.card--charm h2 {
+		font-size:85%;
+	}
 }
 @media (max-width: 991.9px) {
 	article img {
@@ -109,6 +123,9 @@
 	.company__img:after {
 		padding-bottom: 80%;
 	}
+	.card--charm h2 {
+		font-size:85%;
+	}	
 }
 
 .app {
