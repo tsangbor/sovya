@@ -46,6 +46,9 @@
 	.row--charm > .col {
 		padding: 0 1px;
 	}
+	.hondo__img:after {
+		padding-bottom:60%;
+	}
 }
 @media (max-width: 991.9px) {
 	article img {
@@ -89,5 +92,8 @@
 	}
 	.row--charm > .col {
 		padding: 0 1px;
+	}	
+	.hondo__img:after {
+		padding-bottom:60%;
 	}	
 }
