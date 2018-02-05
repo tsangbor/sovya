@@ -52,6 +52,9 @@
 	.hondo__img:after {
 		padding-bottom:60%;
 	}
+	.company__img:after {
+		padding-bottom: 80%;
+	}
 }
 @media (max-width: 991.9px) {
 	article img {
@@ -103,6 +106,9 @@
 		padding-bottom:60%;
 	}
 
+	.company__img:after {
+		padding-bottom: 80%;
+	}
 }
 
 .app {
