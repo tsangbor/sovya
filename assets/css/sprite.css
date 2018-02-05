@@ -790,4 +790,19 @@
     content: "";
     padding-bottom: 191.111111111%; }
 
+.button--top {
+  display: inline-block;
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images/sprite/button--top.png");
+  background-position: center;
+  width: 45px; }
+  .button--top:after {
+    display: block;
+    content: "";
+    padding-bottom: 100%; }
+
 /*# sourceMappingURL=sprite.css.map */
