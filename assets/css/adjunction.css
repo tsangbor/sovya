@@ -33,8 +33,18 @@
 	margin-bottom:50px;
 }
 
-
 @media (max-width: 767.9px) {
+	.knowledge__caption {
+		width: 55%;
+	}
+	.section--perfume__video .section__title {
+		padding-bottom:0;
+	}
+	.section__title.with-line {
+		margin-bottom:0;
+	}
+}
+@media (max-width: 991.9px) {
 	article img {
 		margin-bottom:0px;
 	}
@@ -52,6 +62,9 @@
 	.company__img {
 		margin-top:-20%;
 	}
+	.section__title.with-line h1 {
+		font-size:150%;
+	}
 	.section--about--company,
 	.section--about--hondo {
 		padding:1rem 0;
@@ -59,5 +72,16 @@
 	.section--knowledge--tips,
 	.section--knowledge--cycle {
 		padding: 1rem 0;
+	}
+	.indexNews__caption p {
+		font-size:75%;
+		padding-right:20%;
+	}
+	.knowledge__caption {
+		width: 55%;
+	}
+	.knowledge__caption p {
+		font-size:75%;
+		padding-right:10%;
 	}
 }
