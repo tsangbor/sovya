@@ -46,6 +46,9 @@
 	.row--charm > .col {
 		padding: 0 1px;
 	}
+	.section--about--centdegres {
+		padding: 2rem 0 0rem 0;
+	}	
 	.hondo__img:after {
 		padding-bottom:60%;
 	}
@@ -93,7 +96,11 @@
 	.row--charm > .col {
 		padding: 0 1px;
 	}	
+	.section--about--centdegres {
+		padding: 2rem 0 0rem 0;
+	}
 	.hondo__img:after {
 		padding-bottom:60%;
-	}	
+	}
+
 }
