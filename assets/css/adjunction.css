@@ -43,6 +43,9 @@
 	.section__title.with-line {
 		margin-bottom:0;
 	}
+	.row--charm > .col {
+		padding: 0 1px;
+	}
 }
 @media (max-width: 991.9px) {
 	article img {
@@ -84,4 +87,7 @@
 		font-size:75%;
 		padding-right:10%;
 	}
+	.row--charm > .col {
+		padding: 0 1px;
+	}	
 }
