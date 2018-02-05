@@ -7008,12 +7008,14 @@ footer .nav-footer .nav-link:hover {
   footer .footer__caption {
     margin-top: .5rem;
     margin-left: 0; }
-    footer .footer__caption p {
-      font-size: 2.5vw; }
+  footer .footer__caption p {
+    font-size: 2.5vw; }
   footer .nav-footer {
     right: 15px; } }
 
 @media (max-width: 767.9px) {
+  footer .footer__caption {
+    width: 100%; }
   footer .nav-link {
     font-size: 140%; } }
 
